@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b26edcc4-528b-4335-a7db-6ee1ae369fe7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IE_error_description" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_example.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_login.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_example.py" afterPath="$PROJECT_DIR$/test_example.py" />
     </list>
     <ignored path="Selenium_Webdriver.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,8 +27,8 @@
       <file leaf-file-name="test_example.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_example.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="289">
+              <caret line="17" column="1" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="78" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -36,12 +36,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IE_error_description" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/IE_error_description">
+      <file leaf-file-name="test_login.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test_login.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4824">
-              <caret line="291" column="33" selection-start-line="291" selection-start-column="33" selection-end-line="291" selection-end-column="33" />
-              <folding />
+            <state relative-caret-position="272">
+              <caret line="16" column="62" selection-start-line="16" selection-start-column="62" selection-end-line="16" selection-end-column="62" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -51,8 +53,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="Setup Script" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -62,15 +64,16 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test_example.py" />
         <option value="$PROJECT_DIR$/IE_error_description" />
+        <option value="$PROJECT_DIR$/test_example.py" />
+        <option value="$PROJECT_DIR$/test_login.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1382" />
+    <option name="width" value="1378" />
     <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -98,8 +101,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -120,6 +121,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -128,7 +131,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="SearchEverywhereHistoryKey" value="virtual e&#9;null&#9;null" />
   </component>
-  <component name="RunManager" selected="Python tests.py.test in test_example.py">
+  <component name="RunManager" selected="Python tests.py.test in test_login.py">
     <configuration default="false" name="py.test in test_example.py" type="tests" factoryName="py.test" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -147,6 +150,30 @@
       <option name="PATTERN" value="" />
       <option name="USE_PATTERN" value="false" />
       <option name="testToRun" value="$PROJECT_DIR$/test_example.py" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="py.test in test_login.py" type="tests" factoryName="py.test" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Selenium_Webdriver" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="$PROJECT_DIR$/test_login.py" />
       <option name="keywords" value="" />
       <option name="params" value="" />
       <option name="USE_PARAM" value="false" />
@@ -287,12 +314,14 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in test_example.py" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in test_login.py" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in test_example.py" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in test_login.py" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in test_example.py" />
       </list>
     </recent_temporary>
   </component>
@@ -313,35 +342,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="py_test_in_test_example_py - 2016.11.20 at 21h 45m 32s.xml">
+    <history-entry file="py_test_in_test_example_py - 2016.11.24 at 12h 08m 15s.xml">
       <configuration name="py.test in test_example.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_example_py - 2016.11.20 at 21h 49m 20s.xml">
+    <history-entry file="py_test_in_test_example_py - 2016.11.24 at 12h 08m 38s.xml">
       <configuration name="py.test in test_example.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_example_py - 2016.11.20 at 21h 50m 05s.xml">
+    <history-entry file="py_test_in_test_example_py - 2016.11.24 at 12h 09m 01s.xml">
       <configuration name="py.test in test_example.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_example_py - 2016.11.20 at 21h 50m 20s.xml">
+    <history-entry file="py_test_in_test_example_py - 2016.11.24 at 12h 28m 03s.xml">
       <configuration name="py.test in test_example.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_example_py - 2016.11.20 at 21h 50m 45s.xml">
+    <history-entry file="py_test_in_test_example_py - 2016.11.24 at 12h 28m 58s.xml">
       <configuration name="py.test in test_example.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_example_py - 2016.11.20 at 21h 51m 06s.xml">
+    <history-entry file="py_test_in_test_example_py - 2016.11.24 at 12h 29m 21s.xml">
       <configuration name="py.test in test_example.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_example_py - 2016.11.20 at 21h 51m 20s.xml">
-      <configuration name="py.test in test_example.py" configurationId="tests" />
+    <history-entry file="py_test_in_test_login_py - 2016.11.24 at 12h 26m 49s.xml">
+      <configuration name="py.test in test_login.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_example_py - 2016.11.20 at 21h 51m 45s.xml">
-      <configuration name="py.test in test_example.py" configurationId="tests" />
+    <history-entry file="py_test_in_test_login_py - 2016.11.24 at 12h 27m 23s.xml">
+      <configuration name="py.test in test_login.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_example_py - 2016.11.20 at 22h 07m 57s.xml">
-      <configuration name="py.test in test_example.py" configurationId="tests" />
+    <history-entry file="py_test_in_test_login_py - 2016.11.24 at 12h 29m 45s.xml">
+      <configuration name="py.test in test_login.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_example_py - 2016.11.20 at 22h 40m 36s.xml">
-      <configuration name="py.test in test_example.py" configurationId="tests" />
+    <history-entry file="py_test_in_test_login_py - 2016.11.24 at 12h 36m 15s.xml">
+      <configuration name="py.test in test_login.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -354,8 +383,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1378" height="744" extended-state="1" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -392,6 +421,24 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/test_example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IE_error_description">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test_example.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -534,21 +581,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/IE_error_description">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="265" column="57" selection-start-line="265" selection-start-column="57" selection-end-line="265" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test_example.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state relative-caret-position="289">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="78" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/IE_error_description">
+    <entry file="file://$PROJECT_DIR$/test_login.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4824">
-          <caret line="291" column="33" selection-start-line="291" selection-start-column="33" selection-end-line="291" selection-end-column="33" />
-          <folding />
+        <state relative-caret-position="272">
+          <caret line="16" column="62" selection-start-line="16" selection-start-column="62" selection-end-line="16" selection-end-column="62" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
