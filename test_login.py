@@ -10,10 +10,14 @@ def driver(request):
     return wd
 
 
-def test_example(driver):
+def test_click_through_menu(driver):
     driver.get("http://localhost/litecart/admin/")
     driver.implicitly_wait(10)
     driver.find_element_by_name("username").send_keys("admin")
     driver.find_element_by_name("password").send_keys("admin")
     driver.find_element_by_name("login").click()
     WebDriverWait(driver, 10).until(EC.title_is("My Store"))
+
+
+
+
