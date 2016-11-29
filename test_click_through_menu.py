@@ -37,7 +37,7 @@ def test_example(driver):
         if len(drop_menu) > 0:
             for y in range(0, len(drop_menu)):
                 drop_menu[y].click()
-#                is_element_present_by_xpath(driver,"//img[contains(@title,'My Store')]")
+                assert(is_element_present_by_xpath(driver,"//img[contains(@title,'My Store')]"))
                 select = driver.find_elements_by_css_selector("ul#box-apps-menu li#app-")
                 drop_menu = select[x].find_elements_by_css_selector("ul.docs li")
 
